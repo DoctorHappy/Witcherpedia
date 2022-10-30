@@ -1614,7 +1614,7 @@ class DBHelper extends SQLiteOpenHelper {
 		db.execSQL("INSERT INTO Monster VALUES('Slyzard', 'Draconids', 'Melee/Ranged Draconid', 40, 'D6+3', 5, 0, 0, '<br>&#8226; Can attack with a Ranged attack, with 1 range and initiative. This attack deals D8 Fire damage.<br>&#8226; " +
 				"Immune to Fire damage.<br>&#8226; " +
 				"Can fly.<br>&#8226; " +
-				"May perform Hit and Run.', 4, 'ic_menu_monsters')");
+				"May perform Hit and Run.', 4, 'slyzard')");
 		db.execSQL("INSERT INTO Monster VALUES('Phoenix', 'Draconids', 'Melee Draconid', 40, '2D10', 5, 1, 0, '<br>&#8226; Deals Fire damage.<br>&#8226; " +
 				"Immune to Fire damage.<br>&#8226; " +
 				"Can fly, but still need to be in melee to attack. However, its positive initiative allows to stay safe from most melee retaliations.<br>&#8226; " +
@@ -1699,7 +1699,7 @@ class DBHelper extends SQLiteOpenHelper {
 				"Completely immune to all attacks when it burrows underground.<br>&#8226; " +
 				"Some Earth spells will kill it instantly during that phase.<br>&#8226; " +
 				"Water and Ice attacks will paralyze it for 1 turn and Yrden sign for 3 turns.', 6, 'pale_widow')");
-		db.execSQL("INSERT INTO Monster VALUES('Endrega Worker', 'Insectoids', 'Melee Insectoid', 2, '1', 2, 0, 0, '<br>&#8226; Receives +50% Fire damage (rounded down)', 7, 'ic_menu_monsters')");
+		db.execSQL("INSERT INTO Monster VALUES('Endrega Worker', 'Insectoids', 'Melee Insectoid', 2, '1', 2, 0, 0, '<br>&#8226; Receives +50% Fire damage (rounded down)', 7, 'endrega_worker')");
 		db.execSQL("INSERT INTO Monster VALUES('Endrega Drone', 'Insectoids', 'Ranged Insectoid', 3, '2', 2, 1, 1, '<br>&#8226; Deals Poison damage<br>&#8226; " +
 				"Deals 1 Poison damage to any enemy it has previously hit. The Poison damage ignores armour, and this effect lasts until the victim is killed -or the battle is over-<br>&#8226; " +
 				"Receives +50% Fire damage (round down)', 8, 'endrega_drone')");
@@ -1725,7 +1725,7 @@ class DBHelper extends SQLiteOpenHelper {
 		db.execSQL("INSERT INTO Monster VALUES('Alghoul', 'Necrophages', 'Melee Necrophage/Pack Leader', 10, '4', 3, 0, 0, '<br>&#8226; Heals 5 Hit Points per turn<br>&#8226; " +
 				"Deals 2 damage for every point of melee damage received -unless under the influence of Mind-related spells or signs-', 2, 'alghoul')");
 		db.execSQL("INSERT INTO Monster VALUES('Drowner', 'Necrophages', 'Melee Necrophage', 1, '1', 2, 0, 0, '<br>&#8226; Gains 1 Strength and 2 Initiative if fighting in a territory adjacent to Water<br>&#8226; " +
-				"Receives double damage from Fire and Wind spells', 3, 'ic_menu_monsters')");
+				"Receives double damage from Fire and Wind spells', 3, 'drowner')");
 		db.execSQL("INSERT INTO Monster VALUES('Foglet', 'Necrophages', 'Melee Necrophage/Caster/Ambusher', 10, '12 (4 Dice x 3 Strength)', 2, 1, 0, '<br>&#8226; May perform Ambush<br>&#8226; " +
 				"Can attack through the Illusionary Mist using its Incorporeal forms. When doing so, it cannot get attacked, unless hit by Wind or Earth attacks -which also clear away the mist for 1 turn-.<br>&#8226; " +
 				"Moon Dust and Dimeritium will prevent it from using its Illusionary Mist -but Dimeritium will prevent the use of any spells in the battlefield-.', 4, 'foglet')");
