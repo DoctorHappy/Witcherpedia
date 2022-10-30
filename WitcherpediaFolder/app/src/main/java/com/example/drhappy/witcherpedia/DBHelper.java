@@ -429,7 +429,10 @@ class DBHelper extends SQLiteOpenHelper {
 
 		db.execSQL("INSERT INTO Unit VALUES('Alba Division', 'Rowan', 'Melee', 'Bronze', 'Rowanian', 1, 'alba_spearman') ");
 
-		// missing a lot
+		// missing Ymlac & Etolia
+
+		db.execSQL("INSERT INTO Unit VALUES('Vicovaro Medic', 'Vicovaro', 'Support', 'Silver', 'Vicovarian', 1, 'vicovaro_medic') ");
+		db.execSQL("INSERT INTO Unit VALUES('Vicovaro Novice', 'Vicovaro', 'Mage', 'Silver', 'Vicovarian', 2, 'vicovaro_novice') ");
 
 		db.execSQL("INSERT INTO Unit VALUES('Immortal', 'Ofier', 'Melee', 'Bronze', 'Ofieri', 1, 'immortal') ");
 		db.execSQL("INSERT INTO Unit VALUES('Immortal Camelier', 'Ofier', 'Melee', 'Bronze', 'Ofieri', 2, 'immortal_camelier') ");
