@@ -286,13 +286,13 @@ class DBHelper extends SQLiteOpenHelper {
 		db.execSQL("INSERT INTO Unit VALUES('Scorpion', 'Redania', 'Ranged', 'Silver', 'Common', 12, 'scorpion') ");
 
 		db.execSQL("INSERT INTO Unit VALUES('Nausicaa Cavalry', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Nilfgaardian', 1, 'nauzicaa_cavalry') ");
-		db.execSQL("INSERT INTO Unit VALUES('Venendal Cavalry', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Nilfgaardian', 2, 'venendal_division') ");
-		db.execSQL("INSERT INTO Unit VALUES('Alba Division', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Nilfgaardian', 4, 'alba_spearman') ");
+		db.execSQL("INSERT INTO Unit VALUES('Venendal Cavalry', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Ebbinger', 2, 'venendal_division') ");
+		db.execSQL("INSERT INTO Unit VALUES('Alba Division', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Rowanian', 4, 'alba_spearman') ");
 		db.execSQL("INSERT INTO Unit VALUES('Impera Brigade', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Nilfgaardian', 4, 'impera_brigade') ");
 		db.execSQL("INSERT INTO Unit VALUES('Impera Enforcer', 'Nilfgaardian Empire', 'Ranged', 'Bronze', 'Nilfgaardian', 5, 'impera_enforcers') ");
 		db.execSQL("INSERT INTO Unit VALUES('Black Infantry Archer', 'Nilfgaardian Empire', 'Ranged', 'Bronze', 'Nilfgaardian', 5, 'black_infantry_archer') ");
 		db.execSQL("INSERT INTO Unit VALUES('Daerlan Foot Soldier', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Nilfgaardian', 3, 'daerlan_foot_soldier') ");
-		db.execSQL("INSERT INTO Unit VALUES('Magne Division', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Nilfgaardian', 3, 'magne_division') ");
+		db.execSQL("INSERT INTO Unit VALUES('Magne Division', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Maechtian', 3, 'magne_division') ");
 		db.execSQL("INSERT INTO Unit VALUES('Slave Infantry', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Nilfgaardian', 3, 'slave_infantry') ");
 		db.execSQL("INSERT INTO Unit VALUES('Imperial Golem', 'Nilfgaardian Empire', 'Melee', 'Bronze', 'Nilfgaardian', 6, 'imperial_golem') ");
 		db.execSQL("INSERT INTO Unit VALUES('Nilfgaardian Alchemist', 'Nilfgaardian Empire', 'Support', 'Silver', 'Nilfgaardian', 7, 'nilfgaardian_alchemist') ");
@@ -420,6 +420,14 @@ class DBHelper extends SQLiteOpenHelper {
 		db.execSQL("INSERT INTO Unit VALUES('Beauclairoise Knight-Errant', 'Toussaint', 'Melee', 'Bronze', 'Toussaintoise', 1, 'beauclairoise_knight_errant') ");
 		db.execSQL("INSERT INTO Unit VALUES('Beauclairoise Ducal Guard', 'Toussaint', 'Melee', 'Bronze', 'Toussaintoise', 2, 'beauclairoise_ducal_guard') ");
 		db.execSQL("INSERT INTO Unit VALUES('Toussaintoise Crossbowman', 'Toussaint', 'Ranged', 'Bronze', 'Toussaintoise', 3, 'toussaintoise_crossbowman') ");
+
+		// missing a lot
+
+		db.execSQL("INSERT INTO Unit VALUES('Venendal Cavalry', 'Ebbing', 'Melee', 'Bronze', 'Ebbinger', 1, 'venendal_division') ");
+
+		db.execSQL("INSERT INTO Unit VALUES('Magne Division', 'Maecht', 'Melee', 'Bronze', 'Maechtian', 1, 'magne_division') ");
+
+		db.execSQL("INSERT INTO Unit VALUES('Alba Division', 'Rowan', 'Melee', 'Bronze', 'Rowanian', 1, 'alba_spearman') ");
 
 		// missing a lot
 
